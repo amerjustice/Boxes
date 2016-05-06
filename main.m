@@ -16,6 +16,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"The Volume of the box is: %1.2f", [box calculateVolume]);
    
         Box *mySecondBox = [[Box alloc] initWithLength:1 width:4 height:3];
+        NSLog(@"The Volume of the 2nd box is: %1.2f", [mySecondBox calculateVolume]);
         NSLog(@"The second box can fit in the first box %i times",  [box boxInBox:mySecondBox]);
         
        

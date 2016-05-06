@@ -27,9 +27,4 @@
 -(int)boxInBox:(Box *)secondBox {
     return [self calculateVolume] / [secondBox calculateVolume];
 }
-
-
-
-
-
 @end
